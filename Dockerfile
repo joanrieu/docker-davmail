@@ -9,4 +9,4 @@ RUN wget -O davmail.deb "https://sourceforge.net/projects/davmail/files/davmail/
  && rm -rf davmail.deb /var/lib/apt/lists/*
 
 USER nobody
-CMD davmail
+CMD davmail davmail.properties
